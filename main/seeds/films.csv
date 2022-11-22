@@ -1,0 +1,10 @@
+filmID INT primary key IDENTITY(1,1),filmName VARCHAR(256),releasedYear INT,filmLength INT,spacecraftName VARCHAR(256)
+1,Hubble,2010,45,HST / Hubble Space Telescope
+2,Apollo 11,2019,93,Apollo 11
+3,Apollo 13,1995,140,Apollo 13
+4,Apollo 8: The Mission that Changed the World,2018,44,Apollo 8
+5,The Farthest- Vogayer in Space,2017,121,Voyager 1
+6,Journey to the Edge of the Universe,2008,90,HST / Hubble Space Telescope
+7,First Man,2018,141,Apollo 11
+8,Moonwalk One,1971,96,Apollo 11
+9,The Saturn V Story,2014,52,Saturn SA-5

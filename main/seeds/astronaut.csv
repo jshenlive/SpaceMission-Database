@@ -1,0 +1,568 @@
+personID INT primary key IDENTITY(1,1),firstname VARCHAR(256),lastname VARCHAR(256),numFlight INT,totalFlightTime INT
+1,Abdul ,Ahad Mohmand,1,8
+2,Akihiko ,Hoshide,2,140
+3,Alan ,Bean,2,69
+4,Alan ,G. Poindexter,2,27
+5,Alan ,Shepard,2,9
+6,Albert ,Sacco,1,15
+7,Aleksandar ,Panayotov Aleksandrov,1,91
+8,Aleksandr ,Balandin,1,179
+9,Aleksandr ,Ivanchenkov,1,139
+10,Aleksandr ,Laveykin,1,174
+11,Aleksandr ,Lazutkin,1,184
+12,Aleksandr ,Misurkin,2,333
+13,Aleksandr ,Pavlovich Aleksandrov,2,309
+14,Aleksandr ,Samokutyayev,2,331
+15,Aleksandr ,Serebrov,4,372
+16,Aleksandr ,Skvortsov,3,545
+17,Aleksei ,Gubarev,2,37
+18,Aleksei ,Leonov,2,7
+19,Aleksei ,Yeliseyev,3,8
+20,Aleksey ,Ovchinin,2,374
+21,Alexander ,Gerst,2,361
+22,Alexander ,Kaleri,5,769
+23,Alexander ,Poleshchuk,1,179
+24,Alexander ,Viktorenko,4,489
+25,Alexander ,Volkov,3,391
+26,Alfred ,Worden,1,12
+27,Anatoli ,Berezovoy,1,211
+28,Anatoli ,Ivanishin,3,425
+29,Anatoli ,Levchenko,1,7
+30,Anatoly ,Artsebarsky,1,144
+31,Anatoly ,Filipchenko,2,10
+32,Anatoly ,Solovyev,5,651
+33,Andreas ,Mogensen,1,181
+34,Andrei ,Borisenko,2,337
+35,Andrew ,J. Feustel,3,224
+36,Andrew ,M. Allen,3,37
+37,Andrew ,R. Morgan,1,271
+38,Andrew ,Thomas,4,177
+39,Andriyan ,Nikolayev,2,21
+40,Andr̩ ,Kuipers,2,203
+41,Anna ,Lee Fisher M.D.,1,7
+42,Anne ,McClain,1,203
+43,Anousheh ,Ansari,1,10
+44,Anthony ,W. England,1,7
+45,Anton ,Shkaplerov,3,533
+46,Arnaldo ,Tamayo M̩ndez,1,7
+47,Aydyn ,Aimbetov,1,181
+48,B. ,Alvin Drew,2,25
+49,Barbara ,Morgan,1,12
+50,Barry ,Wilmore,2,178
+51,Bernard ,A. Harris Jr.,2,18
+52,Bertalan ,Farkas,1,7
+53,Bjarni ,Tryggvason,1,11
+54,Bonnie ,J. Dunbar,5,50
+55,Boris ,Morukov,1,10
+56,Boris ,Volynov,2,52
+57,Boris ,Yegorov M.D.,1,1
+58,Brent ,W. Jett Jr.,4,41
+59,Brewster ,Shaw,3,22
+60,Brian ,Binnie,1,0
+61,Brian ,Duffy,4,40
+62,Bruce ,McCandless II,2,13
+63,Bruce ,Melnick,2,13
+64,Bryan ,O'Connor,2,15
+65,Buzz ,Aldrin,2,12
+66,Byron ,Lichtenberg,2,19
+67,Carl ,Meade,3,29
+68,Carl ,Walz,4,230
+69,Carlos ,I. Noriega,2,20
+70,Catherine ,Coleman,3,180
+71,Charles ,"""Pete"" Conrad",4,49
+72,Charles ,Bolden,4,28
+73,Charles ,Camarda,1,13
+74,Charles ,D. Walker,3,19
+75,Charles ,Duke,1,11
+76,Charles ,E. Brady Jr. M.D.,1,16
+77,Charles ,Fullerton,2,15
+78,Charles ,Gemar,3,24
+79,Charles ,Hobaugh,3,35
+80,Charles ,Precourt,4,38
+81,Charles ,Simonyi,2,26
+82,Charles ,Veach,2,18
+83,Chen ,Dong,1,32
+84,Chiaki ,Mukai M.D.,2,23
+85,Chris ,Hadfield,3,165
+86,Christer ,Fuglesang,2,26
+87,Christina ,Koch,1,328
+88,Christopher ,Cassidy,3,327
+89,Christopher ,Ferguson,3,40
+90,Claude ,Nicollier,4,43
+91,Claudie ,Haigner̩ EAC,2,25
+92,Clayton ,Anderson,2,166
+93,Curtis ,Brown,6,58
+94,Dafydd ,Williams M.D.,2,28
+95,Dale ,Gardner,2,14
+96,Daniel ,Barry,3,30
+97,Daniel ,Brandenstein,4,32
+98,Daniel ,Burbank,3,187
+99,Daniel ,Bursch,4,226
+100,Daniel ,Tani,2,131
+101,David ,Griggs,1,6
+102,David ,Hilmers,4,20
+103,David ,Leestma,3,22
+104,David ,M. Brown,1,15
+105,David ,M. Walker,4,30
+106,David ,Saint-Jacques,1,201
+107,David ,Scott,3,22
+108,David ,Wolf M.D.,4,169
+109,Dennis ,Tito,1,7
+110,Dick ,Scobee,1,6
+111,Dirk ,Frimout,1,8
+112,Dmitri ,Kondratyev,1,159
+113,Dominic ,A. Antonelli,2,24
+114,Dominic ,Gorie,4,48
+115,Don ,Lind,1,7
+116,Donald ,"""Deke"" Slayton",1,9
+117,Donald ,McMonagle,3,25
+118,Donald ,Peterson,1,5
+119,Donald ,Pettit,3,370
+120,Donald ,Thomas,4,43
+121,Donald ,Williams,2,11
+122,Donn ,F. Eisele,1,10
+123,Dorothy ,M. Metcalf-Lindenburger,1,15
+124,Douglas ,G. Hurley,3,92
+125,Douglas ,Wheelock,2,178
+126,Duane ,G. Carey,1,10
+127,Dumitru ,Prunariu,1,7
+128,Edgar ,Mitchell,1,9
+129,Edward ,Gibson,1,84
+130,Edward ,Lu,3,204
+131,Edward ,White,1,4
+132,Edwin ,J. Garn,1,6
+133,Eileen ,Collins,4,36
+134,Ellen ,Ochoa,4,40
+135,Ellen ,S. Baker M.D.,3,28
+136,Ellison ,Onizuka,1,3
+137,Eric ,A. Boe,2,28
+138,Ernst ,Messerschmid,1,7
+139,Eugene ,Cernan,3,23
+140,Eugene ,Trinh,1,13
+141,Evgeny ,Tarelkin,1,143
+142,F. ,Drew Gaffney M.D.,1,9
+143,Fei ,Junlong,1,4
+144,Franco ,Malerba,1,7
+145,Frank ,Borman,2,19
+146,Frank ,De Winne,2,198
+147,Frank ,L. Culbertson Jr.,3,143
+148,Franklin ,Chang-Diaz,7,66
+149,Franz ,Viehb̦ck,1,7
+150,Fred ,Haise,1,5
+151,Frederick ,Gregory,3,18
+152,Frederick ,Hauck,3,18
+153,Frederick ,Sturckow,4,51
+154,Frederick ,W. Leslie,1,15
+155,Fyodor ,Yurchikhin,5,672
+156,G. ,David Low,3,29
+157,Garrett ,Reisman,2,107
+158,Gary ,Payton,1,3
+159,Gennadi ,Manakov,2,309
+160,Gennadi ,Sarafanov,1,2
+161,Gennady ,Padalka,5,878
+162,Gennady ,Strekalov,5,268
+163,George ,D. Zamka,2,28
+164,George ,Nelson,3,17
+165,Georgi ,Beregovoi,1,3
+166,Georgi ,Dobrovolski,1,23
+167,Georgi ,Grechko,3,134
+168,Georgi ,Ivanov,1,1
+169,Georgi ,Shonin,1,4
+170,Gerald ,P. Carr,1,84
+171,Gerhard ,Thiele,1,11
+172,Gherman ,Titov,1,1
+173,Gregory ,B. Jarvis,1,0
+174,Gregory ,C. Johnson,1,12
+175,Gregory ,Chamitoff,2,198
+176,Gregory ,H. Johnson,2,31
+177,Gregory ,Harbaugh,4,34
+178,Gregory ,Linteris,2,19
+179,Gregory ,Olsen,1,9
+180,Gregory ,R. Wiseman,1,165
+181,Guion ,Bluford,4,28
+182,Guy ,Gardner,2,13
+183,Guy ,Lalibert,1,10
+184,Hans ,Schlegel,2,22
+185,Harrison ,Schmitt,1,12
+186,Hazza ,Al Mansouri,1,7
+187,Heidemarie ,Stefanyshyn-Piper,2,27
+188,Helen ,Sharman,1,7
+189,Henry ,Hartsfield,3,20
+190,Igor ,Volk,1,11
+191,Ilan ,Ramon,1,15
+192,Ivan ,Bella,1,7
+193,Ivan ,Vagner,1,145
+194,Jack ,D. Fischer,1,135
+195,Jack ,Lousma,2,67
+196,James ,"""Ox"" van Hoften",2,14
+197,James ,Adamson,2,13
+198,James ,Buchli,4,20
+199,James ,Dutton,1,15
+200,James ,F. Reilly,3,35
+201,James ,H. Newman,4,43
+202,James ,Halsell,5,52
+203,James ,Irwin,1,12
+204,James ,M. Kelly,2,26
+205,James ,McDivitt,2,14
+206,James ,P. Bagian M.D.,2,14
+207,James ,Pawelczyk,1,15
+208,James ,Voss,5,202
+209,James ,Wetherbee,6,68
+210,Janet ,L. Kavandi,3,33
+211,Janice ,Voss,5,49
+212,Jay ,C. Buckey M.D.,1,15
+213,Jean-Fran̤ois ,Clervoy EAC,3,29
+214,Jean-Jacques ,Favier,1,16
+215,Jean-Loup ,Chr̩tien,3,44
+216,Jean-Pierre ,Haigner̩ EAC,2,109
+217,Jeffrey ,Ashby,3,27
+218,Jeffrey ,Hoffman,5,50
+219,Jeffrey ,Williams,4,534
+220,Jerome ,Apt,4,35
+221,Jerry ,L. Ross,7,58
+222,Jerry ,Linenger,2,143
+223,Jessica ,Meir,1,204
+224,Jim ,Lovell,4,29
+225,Jing ,Haipeng,3,47
+226,Joan ,Higginbotham,1,12
+227,Joe ,Edwards,1,8
+228,Joe ,H. Engle,2,9
+229,John ,Jack Swigert,1,5
+230,John ,Blaha,5,161
+231,John ,Casper,4,34
+232,John ,D. Olivas,2,27
+233,John ,Fabian,2,13
+234,John ,Glenn,2,9
+235,John ,Grunsfeld,5,59
+236,John ,Herrington,1,14
+237,John ,Lounge,3,20
+238,John ,O. Creighton,3,16
+239,John ,Phillips,3,203
+240,John ,Young,6,34
+241,John-David ,F. Bartoe,1,7
+242,Jon ,McBride,1,8
+243,Joseph ,A. Walker,2,0
+244,Joseph ,Kerwin M.D.,1,28
+245,Joseph ,M. Acaba,3,305
+246,Joseph ,P. Allen,2,13
+247,Joseph ,Tanner,4,43
+248,Jose,Hernandez,1,13
+249,Judith ,Resnik,2,6
+250,Julie ,Payette,2,25
+251,Jagderdemidiin ,Gorragchaa,1,7
+252,K. ,Megan McArthur,1,12
+253,Kalpana ,Chawla,2,31
+254,Karen ,Nyberg,2,180
+255,Karl ,Henize,1,7
+256,Karol ,Bobko,3,16
+257,Kathleen ,Rubins,1,115
+258,Kathryn ,Hire,2,29
+259,Kathryn ,Sullivan,3,22
+260,Kathryn ,Thornton,4,40
+261,Kenneth ,Bowersox,5,212
+262,Kenneth ,Cockrell,5,64
+263,Kenneth ,D. Cameron,3,23
+264,Kenneth ,Ham,2,25
+265,Kenneth ,Reightler,2,13
+266,Kent ,Rominger,5,66
+267,Kevin ,A. Ford,2,157
+268,Kevin ,Kregel,4,52
+269,Kevin ,P. Chilton,3,29
+270,Kimiya ,Yui,1,141
+271,Kjell ,N. Lindgren,1,141
+272,Klaus-Dietrich ,Flade,1,175
+273,Koichi ,Wakata,4,347
+274,Konstantin ,Feoktistov,1,1
+275,Konstantin ,Kozeyev,1,9
+276,L. ,Gordon Cooper Jr.,2,9
+277,Laurel ,B. Clark M.D.,1,15
+278,Lawrence ,J. DeLucas,1,13
+279,Lee ,Archambault,2,26
+280,Lee ,Morin,1,10
+281,Leland ,D. Melvin,2,23
+282,Leonid ,Kadeniuk,1,15
+283,Leonid ,Kizim,3,374
+284,Leonid ,Popov,3,200
+285,Leroy ,Chiao,4,229
+286,Lev ,Dyomin,1,2
+287,Linda ,Godwin,4,38
+288,Lisa ,Nowak,1,12
+289,Liu ,Boming,1,2
+290,Liu ,Wang,1,12
+291,Liu ,Yang,1,12
+292,Lloyd ,Hammond,2,19
+293,Lodewijk ,van den Berg,1,7
+294,Loren ,Acton,1,7
+295,Loren ,Shriver,3,16
+296,Luca ,Parmitano,2,366
+297,L̩opold ,Eyharts EAC,2,68
+298,Mae ,Jemison M.D.,1,7
+299,Maksim ,Surayev,2,334
+300,Mamoru ,Mohri,2,19
+301,Marc ,Garneau,3,29
+302,Marcos ,Pontes,1,9
+303,Mario ,Runco Jr.,3,22
+304,Mark ,Brown,2,10
+305,Mark ,C. Lee,4,32
+306,Mark ,Kelly,4,54
+307,Mark ,Polansky,3,41
+308,Mark ,Shuttleworth,1,9
+309,Mark ,Vande Hei,1,167
+310,Marsha ,Ivins,5,55
+311,Martin ,J. Fettman,1,14
+312,Mary ,Ellen Weber,2,18
+313,Mary ,L. Cleave,2,10
+314,Maurizio ,Cheli,1,15
+315,Michael ,Baker,4,40
+316,Michael ,Coats,3,19
+317,Michael ,Collins,2,11
+318,Michael ,Fincke,3,381
+319,Michael ,Foale,6,374
+320,Michael ,Foreman,2,26
+321,Michael ,Fossum,3,193
+322,Michael ,Gernhardt,4,43
+323,Michael ,J. Bloomfield,3,33
+324,Michael ,J. McCulley,1,4
+325,Michael ,J. Smith,1,0
+326,Michael ,Lopez-Alegria,4,258
+327,Michael ,Massimino,2,23
+328,Michael ,Melvill,2,0
+329,Michael ,P. Anderson,2,24
+330,Michael ,R. Barratt M.D.,2,211
+331,Michael ,R. Clifford,3,27
+332,Michael ,S. Hopkins,1,166
+333,Michael ,T. Good,2,24
+334,Michel ,Tognini EAC,2,18
+335,Mikhail ,Korniyenko,2,516
+336,Mikhail ,Tyurin,3,532
+337,Millie ,Hughes-Fulford,1,9
+338,Miroslaw ,Hermaszewski,1,7
+339,Muhammed ,Faris,1,7
+340,Musa ,Manarov,2,541
+341,Nancy ,J. Currie,4,41
+342,Nancy ,Jan Davis,3,28
+343,Naoko ,Yamazaki,1,15
+344,Neil ,Armstrong,2,8
+345,Nicholas ,Patrick,2,26
+346,Nick ,Hague,1,202
+347,Nicole ,Marie Passonno Stott,2,26
+348,Nikolai ,Budarin,3,445
+349,Nikolay ,Rukavishnikov,3,9
+350,Ni ,H_ishhng,2,19
+351,Norishige ,Kanai,1,168
+352,Norman ,Thagard M.D.,5,140
+353,Oleg ,Artemyev,2,364
+354,Oleg ,Atkov,1,236
+355,Oleg ,Kononenko,4,736
+356,Oleg ,Kotov,3,526
+357,Oleg ,Makarov,4,20
+358,Oleg ,Novitskiy,2,340
+359,Oleg ,Skripochka,3,536
+360,Owen ,Garriott,2,69
+361,Pamela ,Melroy,3,38
+362,Paolo ,A. Nespoli,3,313
+363,Patrick ,Baudry,1,7
+364,Patrick ,Forrester,3,39
+365,Paul ,Lockhart,2,28
+366,Paul ,Scully-Power,1,8
+367,Paul ,W. Richards,1,12
+368,Paul ,Weitz,2,33
+369,Pavel ,Belyayev,1,1
+370,Pavel ,Popovich,2,18
+371,Pavel ,Vinogradov,3,546
+372,Pedro ,Duque,2,18
+373,Peggy ,Whitson,3,665
+374,Peter ,Wisoff,4,44
+375,Petr ,Klimuk,3,78
+376,Philippe ,Perrin EAC,1,13
+377,Ph m ,Tu̢n,1,7
+378,Pierre ,Thuot,3,27
+379,Piers ,Sellers,3,35
+380,Rakesh ,Sharma,1,7
+381,Randolph ,Bresnik,2,149
+382,Reinhard ,Furrer,1,7
+383,Reinhold ,Ewald,1,19
+384,Rex ,Walheim,3,36
+385,Rhea ,Seddon M.D.,3,30
+386,Richard ,Garriott,1,11
+387,Richard ,Gordon,2,13
+388,Richard ,Hieb,3,32
+389,Richard ,Linnehan,4,59
+390,Richard ,Mastracchio,4,226
+391,Richard ,Mullane,3,14
+392,Richard ,N. Richards,4,33
+393,Richard ,O. Covey,4,26
+394,Richard ,R. Arnold,2,208
+395,Richard ,Searfoss,3,39
+396,Richard ,Truly,2,8
+397,Rick ,Husband,2,25
+398,Robert ,Crippen,4,23
+399,Robert ,Curbeam,3,37
+400,Robert ,D. Cabana,4,37
+401,Robert ,J. Cenker,1,6
+402,Robert ,L. Behnken,3,93
+403,Robert ,L. Gibson,5,36
+404,Robert ,Overmyer,2,12
+405,Robert ,Parker,2,19
+406,Robert ,S. Kimbrough,2,188
+407,Robert ,Satcher M.D.,1,10
+408,Robert ,Springer,2,9
+409,Robert ,Stewart,2,12
+410,Robert ,Thirsk M.D.,2,204
+411,Roberta ,Bondar M.D.,1,8
+412,Roberto ,Vittori,3,35
+413,Rodolfo ,Neri Vela,1,6
+414,Roger ,K. Crouch,2,19
+415,Roman ,Romanenko,2,333
+416,Ronald ,A. Parise,2,25
+417,Ronald ,Evans,1,12
+418,Ronald ,Garan,2,177
+419,Ronald ,Grabe,4,26
+420,Ronald ,McNair,1,7
+421,Ronald ,Sega,2,17
+422,Roy ,Bridges,1,7
+423,Rusty ,Schweickart,1,10
+424,S. ,Christa McAuliffe,1,0
+425,Salizhan ,Sharipov,2,201
+426,Sally ,Ride,2,14
+427,Samantha ,Cristoforetti,1,199
+428,Samuel ,T. Durrance,2,25
+429,Sandra ,Magnus,3,257
+430,Satoshi ,Furukawa,1,267
+431,Scott ,Altman,4,50
+432,Scott ,Carpenter,1,0
+433,Scott ,D. Tingle,1,268
+434,Scott ,Horowitz,4,47
+435,Scott ,Kelly,4,521
+436,Scott ,Parazynski M.D.,5,58
+437,Serena ,Chancellor,1,196
+438,Sergei ,Avdeyev,2,367
+439,Sergei ,Krikalev,6,803
+440,Sergei ,Revin,1,124
+441,Sergei ,Ryazanski,2,304
+442,Sergei ,Treshchov,1,184
+443,Sergei ,Zalyotin,2,83
+444,Sergey ,Nikolayevich Ryzhikov,1,173
+445,Sergey ,Prokopyev,1,196
+446,Sergey ,Volkov,3,547
+447,Shannon ,Lucid,5,223
+448,Shannon ,Walker,1,163
+449,Sheikh ,Muszaphar Shukor M.D.,1,10
+450,Sherwood ,Spring,1,6
+451,Sidney ,Gutierrez,2,20
+452,Sigmund ,J�_hn,1,7
+453,Soichi ,Noguchi,2,177
+454,Sonny ,Carter M.D.,1,5
+455,Stanley ,G. Love,1,12
+456,Stephanie ,Wilson,3,42
+457,Stephen ,Frick,2,23
+458,Stephen ,G. Bowen,3,40
+459,Stephen ,Oswald,3,33
+460,Stephen ,Robinson,4,48
+461,Steven ,Hawley,5,32
+462,Steven ,Lindsey,5,62
+463,Steven ,MacLean,2,21
+464,Steven ,R. Nagel,4,30
+465,Steven ,Smith,4,41
+466,Steven ,Swanson,3,195
+467,Story ,Musgrave M.D.,6,53
+468,Stuart ,Roosa,1,9
+469,Sultan ,bin Salman bin Abdulaziz Al Saud,1,7
+470,Sunita ,"""Suni"" Williams",2,321
+471,Susan ,Helms,5,210
+472,Susan ,Still Kilrain,2,19
+473,Svetlana ,Savitskaya,2,19
+474,Takao ,Doi,2,31
+475,Takuya ,Onishi,1,115
+476,Talgat ,Musabayev,3,341
+477,Tamara ,E. Jernigan,5,62
+478,Taylor ,Wang,1,7
+479,Terence ,Henricks,4,42
+480,Terrence ,Wilcutt,4,41
+481,Terry ,Hart,1,6
+482,Terry ,Virts,2,213
+483,Thomas ,Akers,4,34
+484,Thomas ,D. Jones,4,53
+485,Thomas ,Hennen,1,6
+486,Thomas ,"Kenneth ""Ken"" Mattingly II",3,21
+487,Thomas ,Marshburn M.D.,2,161
+488,Thomas ,Patten Stafford,4,21
+489,Thomas ,Pesquet,1,196
+490,Thomas ,Reiter,2,350
+491,Timothy ,Creamer,1,163
+492,Timothy ,L. Kopra,2,244
+493,Timothy ,Peake,1,185
+494,Toktar ,Aubakirov,1,7
+495,Tracy ,Caldwell Dyson,2,188
+496,Ulf ,Merbold,3,49
+497,Ulrich ,Walter,1,9
+498,Umberto ,Guidoni,2,27
+499,Valentin ,Lebedev,2,219
+500,Valentina ,Tereshkova,1,2
+501,Valeri ,Kubasov,3,18
+502,Valeri ,Polyakov M.D.,2,678
+503,Valery ,Bykovsky,3,20
+504,Valery ,Korzun,2,381
+505,Valery ,Rozhdestvensky,1,2
+506,Valery ,Ryumin,4,371
+507,Valery ,Tokarev,2,199
+508,Vance ,Brand,4,31
+509,Vasili ,Lazarev,2,1
+510,Vasili ,Tsibliyev,2,381
+511,Viktor ,Gorbatko,3,30
+512,Viktor ,M. Afanasyev,4,555
+513,Viktor ,Patsayev,1,23
+514,Viktor ,Savinykh,2,242
+515,Virgil ,"I. ""Gus"" Grissom",2,0
+516,Vitali ,Sevastyanov,2,80
+517,Vitaliy ,Zholobov,1,49
+518,Vladimir ,Aksyonov,2,11
+519,Vladimir ,Dzhanibekov,5,145
+520,Vladimir ,Komarov,2,2
+521,Vladimir ,Kovalyonok,3,216
+522,Vladimir ,Lyakhov,3,333
+523,Vladimir ,N. Dezhurov,1,115
+524,Vladimir ,Shatalov,3,9
+525,Vladimir ,Solovyov,2,361
+526,Vladimir ,Titov,4,388
+527,Vladimir ,Vasyutin,1,64
+528,Vladimir ,Remek,1,7
+529,Vladislav ,Volkov,2,28
+530,Vyacheslav ,Zudov,1,2
+531,Walter ,Cunningham,1,10
+532,Walter ,Schirra,3,12
+533,Wang ,Yaping,1,14
+534,Wendy ,Lawrence,4,52
+535,William ,Anders,1,6
+536,William ,B. Lenoir,1,5
+537,William ,C. McCool,1,15
+538,William ,E. Thornton M.D.,2,13
+539,William ,Frederick Fisher M.D.,1,7
+540,William ,Gregory,1,16
+541,William ,Oefelein,1,12
+542,William ,Pailes,1,4
+543,William ,Pogue,1,84
+544,William ,Readdy,3,28
+545,William ,S. McArthur,4,224
+546,William ,Shepherd,4,159
+547,Winston ,Scott,2,24
+548,Wubbo ,Ockels,1,7
+549,Yang ,Liwei,1,0
+550,Yelena ,Kondakova,2,178
+551,Yelena ,Serova,1,167
+552,Yevgeny ,Khrunov,1,1
+553,Yi ,So-yeon,1,10
+554,Yuri ,Artyukhin,1,15
+555,Yuri ,Baturin,2,19
+556,Yuri ,Gagarin,1,0
+557,Yuri ,Gidzenko,3,329
+558,Yuri ,Glazkov,1,17
+559,Yuri ,Lonchakov,3,200
+560,Yuri ,Malenchenko,6,826
+561,Yuri ,Malyshev,2,11
+562,Yuri ,Onufrienko,2,389
+563,Yuri ,Romanenko,3,430
+564,Yuri ,Shargin,1,9
+565,Yury ,Usachov,4,552
+566,Zhai ,Zhigang,1,2
+567,Zhang ,Xiaoguang,1,14

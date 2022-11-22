@@ -1,0 +1,56 @@
+manufacturerName VARCHAR(256) primary key,yearFound int
+ABL Space Systems,2017
+Agnikul Cosmos,2017
+ARCA Space,1999
+Australian Space Research Institute,1991
+Astra Space,2016
+Bellatrix Aerospace,2015
+Blue Origin,2000
+BluShift Aerospace,2014
+Borneo SubOrbitals,2019
+Canadian Arrow,1945
+Datiotec Aeroespacial / INMEU A.C., 0
+Exos Aerospace,2014
+Equatorial Space Systems,2017
+Firefly Aerospace,2017
+Firefly MLV,2017
+General Astronautics,1956
+Gilmour Space Technologies,2012
+Eris, 0
+Generation Orbit,2011
+GOLauncher 2,2011
+Independence-X Aerospace,2013
+Interorbital Systems,1996
+Interstellar Technologies,2003
+Isar Aerospace,2018
+Launcher,2017
+Leaf Space,2014
+Lin Industrial,2014
+Lockheed Martin,1995
+Athena, 0
+Mishaal Aerospace,2010
+OneSpace,2015
+Orbex,2015
+OrbitX,2019
+Northrop Grumman Innovation Systems,2015
+Orbital Transport & Raketen AG,1975
+Perigee Aerospace,2018
+PLD Space,2011
+Relativity Space,2015
+Rocket Crafters,2010
+Rocket Lab,2006
+RocketStar,2014
+Rocket Factory Augsburg,2018
+Skyroot Aerospace,2018
+Skyrora,2017
+SpaceForest,2011
+Space Services Inc.,1981
+SpaceLS, 0
+Space Pioneer,2015
+SpaceX,2002
+Success Rockets,2020
+Stalker,2020
+United Launch Alliance,2006
+UP Aerospace,2004
+Vector Launch,2016
+Virgin Orbit,2017
