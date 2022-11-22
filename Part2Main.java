@@ -1336,7 +1336,7 @@ public class Part2Main {
         if (!resultSet.next()) {
           System.out.println("No data found with given query");
         } else{
-          System.out.println("Manufacturer name | spacecraftName | spacecraftName ");
+          System.out.println("Manufacturer name | spacecraftName ");
           do{
             System.out.println(
               resultSet.getString("manufacturerName") + " | "  
@@ -1509,7 +1509,7 @@ public class Part2Main {
         PreparedStatement statement = connection.prepareStatement(sql);
         ResultSet resultSet = statement.executeQuery();
   
-        System.out.println("Based on average funding amount, find number of failed/succeeded projects that are below the average funding");
+        System.out.println("Based on average funding amount, find number of failed/succeeded projects that are below or above the average funding");
         if (!resultSet.next()) {
           System.out.println("No data found with given query");
         } else{
