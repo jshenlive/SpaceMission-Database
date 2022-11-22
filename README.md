@@ -1,4 +1,5 @@
 # Welcome to Space Missions Database
+Github Repo: https://github.com/jshenlive/SpaceMission-Database
 
 ===============
 ## Introduction
@@ -12,15 +13,15 @@ The program program is created with Java and MS SQL Server was used for the Data
 In order to run properly, make sure that a java complier is installed for the system Command Line Interface(CLI).
 
 ### Screenshots
-!["screenshot on Queries List"](...)
+!["screenshot on Queries List"](https://github.com/jshenlive/SpaceMission-Database/blob/main/screenshots/queriesList.jpg)
 
-!["screenshot on Query 11"](...)
+!["screenshot on Query 11"](https://github.com/jshenlive/SpaceMission-Database/blob/main/screenshots/query11.jpg)
 
-!["screenshot on Query built"](...)
+!["screenshot on Query built"](https://github.com/jshenlive/SpaceMission-Database/blob/main/screenshots/built.jpg)
 
-!["screenshot on Query films"](...)
+!["screenshot on Query films"](https://github.com/jshenlive/SpaceMission-Database/blob/main/screenshots/films.jpg)
 
-!["screenshot on custom Quer"](...)
+!["screenshot on custom Query"](https://github.com/jshenlive/SpaceMission-Database/blob/main/screenshots/customQuery.jpg)
 
 
 ================
