@@ -1,0 +1,96 @@
+spacecraftName VARCHAR(256) primary key,orbit VARCHAR(256),orbitType VARCHAR(256),launchVehicle VARCHAR(256)
+Aeneas,LEO,Equatorial,Atlas 5
+Aerocube 6A,LEO,Sun-Synchronous,Dnepr
+Aerocube 6B,LEO,Sun-Synchronous,Dnepr
+Amazonas-4A,GEO,,Ariane 5 ECA
+Amos 3,GEO,,Zenit 3SLB
+Amos 4,GEO,,Zenit 2SB
+Anik F1R,GEO,,Proton M
+Anik F3,GEO,,Proton M
+Anik G1,GEO,,Proton M
+AprizeSat 5,LEO,Sun-Synchronous,Dnepr
+Apstar 7,GEO,,Long March 3B
+Arabsat 5C,GEO,,Ariane 5 ECA
+Astra 1KR,GEO,,Atlas 5
+Astra 1L,GEO,,Ariane 5 ECA
+Astra 1M,GEO,,Proton M
+Astra 1N,GEO,,Ariane 5 ECA
+Astra 2D,GEO,,Ariane 5G
+Astra 3B,GEO,,Ariane 5 ECA
+Astra 5B,GEO,,Ariane 5 ECA
+Badr 4 (Arabsat 4B),GEO,,Proton M
+BSAT-3A,GEO,,Ariane 5 ECA
+BSAT-3B,GEO,,Ariane 5 ECA
+CanX-4,LEO,Sun-Synchronous,PSLV-CA
+CanX-5,LEO,Sun-Synchronous,PSLV-CA
+CartoSat 2B,LEO,Sun-Synchronous,PSLV
+Ciel-2,GEO,,Proton M
+Cloudsat,LEO,Sun-Synchronous,Delta 2
+Deimos 1,LEO,Sun-Synchronous,Dnepr
+DubaiSat-2,LEO,Sun-Synchronous,Dnepr
+Echostar 17,GEO,,Ariane 5 ECA
+Eutelsat 3B,GEO,,Zenit 3SL
+Express-AM33,GEO,,Proton M
+Falconsat-3,LEO,Non-Polar Inclined,Atlas 5
+GSAT-10,GEO,,Ariane 5
+GSAT-14,GEO,,GSLV
+Helios 2B,LEO,Sun-Synchronous,Ariane 5
+Hispasat 1E,GEO,,Ariane 5
+INMARSAT 4 F1,GEO,,Atlas 5
+INMARSAT 4 F3,GEO,,Proton M
+INMARSAT 5 F1,GEO,,Proton M
+LatinSat A,LEO,Non-Polar Inclined,Dnepr
+Luch 5A,GEO,,Proton M
+Luch 5V,GEO,,Proton M
+Megha-Tropiques,LEO,Non-Polar Inclined,PSLV
+Nanosat-1B,LEO,Sun-Synchronous,Dnepr
+Nilesat 201,GEO,,Ariane 5
+Nimiq 4,GEO,,Proton
+Nimiq 6,GEO,,Breeze M
+NSS-9,GEO,,Ariane 5 ECA
+OPTOS,LEO,Sun-Synchronous,Dnepr
+Optus D2,GEO,,Ariane 5
+Optus D3,GEO,,Ariane 5
+RASAT,LEO,Sun-Synchronous,Dnepr
+SAR-Lupe 1,LEO,Non-Polar Inclined,Kosmos 3M
+SAR-Lupe 2,LEO,Non-Polar Inclined,Kosmos 3M
+SAR-Lupe 3,LEO,Non-Polar Inclined,Kosmos 3M
+SAR-Lupe 4,LEO,Non-Polar Inclined,Kosmos 3M
+SAR-Lupe 5,LEO,Non-Polar Inclined,Kosmos 3M
+Saudicomsat-1,LEO,Sun-Synchronous,Dnepr
+Saudicomsat-3,LEO,Sun-Synchronous,Dnepr
+Saudicomsat-4,LEO,Sun-Synchronous,Dnepr
+Saudicomsat-5,LEO,Sun-Synchronous,Dnepr
+Saudicomsat-6,LEO,Sun-Synchronous,Dnepr
+Saudicomsat-7,LEO,Sun-Synchronous,Dnepr
+Sentinel 1A,LEO,Sun-Synchronous,Soyuz
+SES-4,GEO,,Proton M
+SES-6,GEO,,Proton M
+SES-8,GEO,,Falcon 9
+Sicral 1B,GEO,,Zenit 3SL
+Sirius XM-5,GEO,,Proton M
+Skynet 5A,GEO,,Ariane 5 ECA
+Skynet 5B,GEO,,Ariane 5
+Skynet 5C,GEO,,Ariane 5 ECA
+Skynet 5D,GEO,,Ariane 5 ECA
+SkyTerra 1,GEO,,Breeze M
+Spaceway 3,GEO,,Ariane 5 ECA
+Spainsat,GEO,,Ariane 5
+Star One C1,GEO,,Ariane 5
+Star One C2,GEO,,Ariane 5 ECA
+Star One C3,GEO,,Ariane 5 ECA
+Starlink-2600,LEO,Non-Polar Inclined,Falcon 9
+Starlink-2633,LEO,Non-Polar Inclined,Falcon 9
+STSat-2C,LEO,Polar,Naro-1
+SwissCube,LEO,Sun-Synchronous,PSLV
+TacSat 4,Elliptical,Molniya,Minotaur 4
+Telstar 11N,GEO,,Zenit 3SLB
+Thuraya 3,GEO,,Zenit 3SL
+Turksat 3A,GEO,,Ariane 5 ECA
+Turksat 4A,GEO,,Proton
+Vinasat 2,GEO,,Ariane 5 ECA
+WildBlue 1,GEO,,Ariane 5
+Worldview 1,LEO,Sun-Synchronous,Delta 2
+X-Sat,LEO,Sun-Synchronous,PSLV C16
+XTAR-EUR,GEO,,Ariane 5 ECA
+Yamal-300K,GEO,,Proton M

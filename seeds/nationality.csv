@@ -1,0 +1,568 @@
+personID INTEGER primary key references astronaut on delete cascade,countryName VARCHAR(256)
+1,Afghanistan
+2,Japan
+3,United States
+4,United States
+5,United States
+6,United States
+7,Bulgaria
+8,Soviet Union
+9,Soviet Union
+10,Soviet Union
+11,Russia
+12,Russia
+13,Soviet Union
+14,Russia
+15,Soviet Union
+16,Russia
+17,Soviet Union
+18,Soviet Union
+19,Soviet Union
+20,Russia
+21,Germany
+22,Russia
+23,Russia
+24,Soviet Union
+25,Soviet Union
+26,United States
+27,Soviet Union
+28,Russia
+29,Soviet Union
+30,Soviet Union
+31,Soviet Union
+32,Russia
+33,Denmark
+34,Russia
+35,United States
+36,United States
+37,United States
+38,United States
+39,Soviet Union
+40,Netherlands
+41,United States
+42,United States
+43,Iran
+44,United States
+45,Russia
+46,Cuba
+47,Kazakhstan
+48,United States
+49,United States
+50,United States
+51,United States
+52,Hungary
+53,Canada
+54,United States
+55,Russia
+56,Soviet Union
+57,Soviet Union
+58,United States
+59,United States
+60,United States
+61,United States
+62,United States
+63,United States
+64,United States
+65,United States
+66,United States
+67,United States
+68,United States
+69,Peru
+70,United States
+71,United States
+72,United States
+73,United States
+74,United States
+75,United States
+76,United States
+77,United States
+78,United States
+79,United States
+80,United States
+81,Hungary
+82,United States
+83,China
+84,Japan
+85,Canada
+86,Sweden
+87,United States
+88,United States
+89,United States
+90,Switzerland
+91,France
+92,United States
+93,United States
+94,Canada
+95,United States
+96,United States
+97,United States
+98,United States
+99,United States
+100,United States
+101,United States
+102,United States
+103,United States
+104,United States
+105,United States
+106,Canada
+107,United States
+108,United States
+109,United States
+110,United States
+111,Belgium
+112,Russia
+113,United States
+114,United States
+115,United States
+116,United States
+117,United States
+118,United States
+119,United States
+120,United States
+121,United States
+122,United States
+123,United States
+124,United States
+125,United States
+126,United States
+127,Romania
+128,United States
+129,United States
+130,United States
+131,United States
+132,United States
+133,United States
+134,United States
+135,United States
+136,United States
+137,United States
+138,Germany
+139,United States
+140,United States
+141,Russia
+142,United States
+143,China
+144,Italy
+145,United States
+146,Belgium
+147,United States
+148,United States
+149,Austria
+150,United States
+151,United States
+152,United States
+153,United States
+154,United States
+155,Russia
+156,United States
+157,United States
+158,United States
+159,Russia
+160,Soviet Union
+161,Russia
+162,Soviet Union
+163,United States
+164,United States
+165,Soviet Union
+166,Soviet Union
+167,Soviet Union
+168,Bulgaria
+169,Soviet Union
+170,United States
+171,Germany
+172,Soviet Union
+173,United States
+174,United States
+175,United States
+176,United States
+177,United States
+178,United States
+179,United States
+180,United States
+181,United States
+182,United States
+183,Canada
+184,Germany
+185,United States
+186,United Arab Emirates
+187,United States
+188,United Kingdom
+189,United States
+190,Soviet Union
+191,Israel
+192,Slovakia
+193,Russia
+194,United States
+195,United States
+196,United States
+197,United States
+198,United States
+199,United States
+200,United States
+201,United States
+202,United States
+203,United States
+204,United States
+205,United States
+206,United States
+207,United States
+208,United States
+209,United States
+210,United States
+211,United States
+212,United States
+213,France
+214,France
+215,France
+216,France
+217,United States
+218,United States
+219,United States
+220,United States
+221,United States
+222,United States
+223,United States
+224,United States
+225,China
+226,United States
+227,United States
+228,United States
+229,United States
+230,United States
+231,United States
+232,United States
+233,United States
+234,United States
+235,United States
+236,United States
+237,United States
+238,United States
+239,United States
+240,United States
+241,United States
+242,United States
+243,United States
+244,United States
+245,United States
+246,United States
+247,United States
+248,United States
+249,United States
+250,Canada
+251,Mongolia
+252,United States
+253,United States
+254,United States
+255,United States
+256,United States
+257,United States
+258,United States
+259,United States
+260,United States
+261,United States
+262,United States
+263,United States
+264,United States
+265,United States
+266,United States
+267,United States
+268,United States
+269,United States
+270,Japan
+271,United States
+272,Germany
+273,Japan
+274,Soviet Union
+275,Russia
+276,United States
+277,United States
+278,United States
+279,United States
+280,United States
+281,United States
+282,Ukraine
+283,Soviet Union
+284,Soviet Union
+285,United States
+286,Soviet Union
+287,United States
+288,United States
+289,China
+290,China
+291,China
+292,United States
+293,United States
+294,United States
+295,United States
+296,Italy
+297,France
+298,United States
+299,Russia
+300,Japan
+301,Canada
+302,Brazil
+303,United States
+304,United States
+305,United States
+306,United States
+307,United States
+308,South Africa
+309,United States
+310,United States
+311,United States
+312,United States
+313,United States
+314,Italy
+315,United States
+316,United States
+317,United States
+318,United States
+319,United Kingdom
+320,United States
+321,United States
+322,United States
+323,United States
+324,United States
+325,United States
+326,United States
+327,United States
+328,United States
+329,United States
+330,United States
+331,United States
+332,United States
+333,United States
+334,France
+335,Russia
+336,Russia
+337,United States
+338,Poland
+339,Syria
+340,Soviet Union
+341,United States
+342,United States
+343,Japan
+344,United States
+345,United States
+346,United States
+347,United States
+348,Russia
+349,Soviet Union
+350,China
+351,Japan
+352,United States
+353,Russia
+354,Soviet Union
+355,Russia
+356,Russia
+357,Soviet Union
+358,Russia
+359,Russia
+360,United States
+361,United States
+362,Italy
+363,France
+364,United States
+365,United States
+366,United States
+367,United States
+368,United States
+369,Soviet Union
+370,Soviet Union
+371,Russia
+372,Spain
+373,United States
+374,United States
+375,Soviet Union
+376,France
+377,Vietnam
+378,United States
+379,United States
+380,India
+381,United States
+382,Germany
+383,Germany
+384,United States
+385,United States
+386,United States
+387,United States
+388,United States
+389,United States
+390,United States
+391,United States
+392,United States
+393,United States
+394,United States
+395,United States
+396,United States
+397,United States
+398,United States
+399,United States
+400,United States
+401,United States
+402,United States
+403,United States
+404,United States
+405,United States
+406,United States
+407,United States
+408,United States
+409,United States
+410,Canada
+411,Canada
+412,Italy
+413,Mexico
+414,United States
+415,Russia
+416,United States
+417,United States
+418,United States
+419,United States
+420,United States
+421,United States
+422,United States
+423,United States
+424,United States
+425,Russia
+426,United States
+427,Italy
+428,United States
+429,United States
+430,Japan
+431,United States
+432,United States
+433,United States
+434,United States
+435,United States
+436,United States
+437,United States
+438,Russia
+439,Russia
+440,Russia
+441,Russia
+442,Russia
+443,Russia
+444,Russia
+445,Russia
+446,Russia
+447,United States
+448,United States
+449,Malaysia
+450,United States
+451,United States
+452,East Germany
+453,Japan
+454,United States
+455,United States
+456,United States
+457,United States
+458,United States
+459,United States
+460,United States
+461,United States
+462,United States
+463,Canada
+464,United States
+465,United States
+466,United States
+467,United States
+468,United States
+469,Saudi Arabia
+470,United States
+471,United States
+472,United States
+473,Soviet Union
+474,Japan
+475,Japan
+476,Kazakhstan
+477,United States
+478,United States
+479,United States
+480,United States
+481,United States
+482,United States
+483,United States
+484,United States
+485,United States
+486,United States
+487,United States
+488,United States
+489,France
+490,Germany
+491,United States
+492,United States
+493,United Kingdom
+494,Soviet Union
+495,United States
+496,Germany
+497,Germany
+498,Italy
+499,Soviet Union
+500,Soviet Union
+501,Soviet Union
+502,Russia
+503,Soviet Union
+504,Russia
+505,Soviet Union
+506,Soviet Union
+507,Russia
+508,United States
+509,Soviet Union
+510,Russia
+511,Soviet Union
+512,Russia
+513,Soviet Union
+514,Soviet Union
+515,United States
+516,Soviet Union
+517,Soviet Union
+518,Soviet Union
+519,Soviet Union
+520,Soviet Union
+521,Soviet Union
+522,Soviet Union
+523,Russia
+524,Soviet Union
+525,Soviet Union
+526,Soviet Union
+527,Soviet Union
+528,Czechoslovakia
+529,Soviet Union
+530,Soviet Union
+531,United States
+532,United States
+533,China
+534,United States
+535,United States
+536,United States
+537,United States
+538,United States
+539,United States
+540,United States
+541,United States
+542,United States
+543,United States
+544,United States
+545,United States
+546,United States
+547,United States
+548,Netherlands
+549,China
+550,Russia
+551,Russia
+552,Soviet Union
+553,South Korea
+554,Soviet Union
+555,Russia
+556,Soviet Union
+557,Russia
+558,Soviet Union
+559,Russia
+560,Russia
+561,Soviet Union
+562,Russia
+563,Soviet Union
+564,Russia
+565,Russia
+566,China
+567,China

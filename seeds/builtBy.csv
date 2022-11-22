@@ -1,0 +1,115 @@
+builtByID INT primary key IDENTITY(1,1),manufacturerName VARCHAR(256) references manufacturers on delete cascade,spacecraftName VARCHAR(256)
+1,ABL Space Systems,RS1
+2,Agnikul Cosmos,Agnibaan
+3,ARCA Space,Haas 2b
+4,ARCA Space,Haas 2CA
+5,ARCA Space,Super Haas
+6,ARCA Space,EcoRocket Demonstrator
+7,ARCA Space,EcoRocket Heavy
+8,Australian Space Research Institute,AUSROC Nano
+9,Astra Space,Astra Rocket 1
+10,Astra Space,Astra Rocket 2
+11,Astra Space,Astra Rocket 3
+12,Astra Space,Astra Rocket 4
+13,Astra Space,SALVO
+14,Bellatrix Aerospace,Chetak 
+15,Blue Origin,New Shepard
+16,Blue Origin,New Glenn
+17,Blue Origin,New Armstrong
+18,BluShift Aerospace,Stardust
+19,BluShift Aerospace,Starless Rogue
+20,BluShift Aerospace,Brown Dwarf
+21,BluShift Aerospace,Red Dwarf
+22,Borneo SubOrbitals,TBA
+23,Canadian Arrow,Canadian Arrow
+24,Datiotec Aeroespacial / INMEU A.C.,JFCR.2000-Pollux
+25,Exos Aerospace,SARGE
+26,Equatorial Space Systems,Volans
+27,Equatorial Space Systems,Dorado
+28,Equatorial Space Systems,LAD
+29,Firefly Aerospace,Firefly Alpha
+30,Firefly MLV,Light rocket
+31,General Astronautics,Urania
+32,Gilmour Space Technologies,RASTA
+33,Eris,Light rocket
+34,Generation Orbit,X-60A (GOLauncher 1)
+35,GOLauncher 2,Air-launch-to-orbit
+36,Independence-X Aerospace,DNLV (Dedicated Nano Launch Vehicle)
+37,Interorbital Systems,NEPTUNE N series
+38,Interorbital Systems,NEPTUNE N36
+39,Interorbital Systems,Neptune TSAAHTO
+40,Interstellar Technologies,Momo
+41,Isar Aerospace,Spectrum
+42,Launcher,Light
+43,Leaf Space,Primo
+44,Lin Industrial,Taymyr
+45,Lockheed Martin,VentureStar
+46,Athena,Medium rocket
+47,Mishaal Aerospace,M-SV
+48,Mishaal Aerospace,M-OV
+49,Mishaal Aerospace,M-LV
+50,OneSpace,OS-X
+51,OneSpace,OS-M1
+52,OneSpace,OS-M2
+53,OneSpace,OS-M4
+54,Orbex,Prime
+55,OrbitX,Haribon SLS-1
+56,Northrop Grumman Innovation Systems,Antares
+57,Northrop Grumman Innovation Systems,Minotaur-C formerly Taurus
+58,Northrop Grumman Innovation Systems,Pegasus
+59,Northrop Grumman Innovation Systems,Omega
+60,Orbital Transport & Raketen AG,OTRAG
+61,Perigee Aerospace,Blue Whale 1
+62,PLD Space,Miura 1
+63,PLD Space,Miura 5
+64,Relativity Space,Terran 1
+65,Relativity Space,Terran R
+66,Rocket Crafters,Intrepid-1
+67,Rocket Lab,Ātea-1
+68,Rocket Lab,Ātea-2
+69,Rocket Lab,Electron
+70,Rocket Lab,Neutron
+71,RocketStar,Star-Lord
+72,Rocket Factory Augsburg,RFA One
+73,Skyroot Aerospace,Vikram-1
+74,Skyroot Aerospace,Vikram-II
+75,Skyroot Aerospace,Vikram-III
+76,Skyrora,Skyrora 1
+77,Skyrora,Skylark Micro
+78,Skyrora,Skylark L
+79,Skyrora,Skyrora XL
+80,SpaceForest,Bigos
+81,SpaceForest,Candle-2
+82,SpaceForest,Perun
+83,SpaceForest,SIR (Suborbital Inexpensive Rocket)
+84,Space Services Inc.,Percheron
+85,Space Services Inc.,Conestoga 1620
+86,SpaceLS,Prometheus-1
+87,Space Pioneer,Tiansuo-1
+88,Space Pioneer,Tianlong-1
+89,SpaceX,Falcon 1
+90,SpaceX,Falcon 1e
+91,SpaceX,Falcon 5
+92,SpaceX,Falcon 9 v1.0
+93,SpaceX,Falcon 9 v1.1
+94,SpaceX,Falcon 9 Full Thrust
+95,SpaceX,Block 1-4
+96,SpaceX,Falcon 9 Block 5
+97,SpaceX,Falcon Heavy
+98,SpaceX,Starship Super-Heavy
+99,Success Rockets,Nebo 1
+100,Stalker,Ultralight rocket
+101,United Launch Alliance,Atlas V
+102,United Launch Alliance,Delta II 6000
+103,United Launch Alliance,Delta II 7000
+104,United Launch Alliance,Delta II 7000H
+105,United Launch Alliance,Delta IV
+106,United Launch Alliance,Delta IV Heavy
+107,United Launch Alliance,Vulcan
+108,UP Aerospace,Skyloft/Skyloft XL
+109,UP Aerospace,Spyder
+110,Vector Launch,Vector-R
+111,Vector Launch,Vector-RE1
+112,Vector Launch,Vector-H
+113,Vector Launch,Vector-HE1
+114,Virgin Orbit,LauncherOne

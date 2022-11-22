@@ -1,0 +1,84 @@
+agencyName VARCHAR(256) primary key,agencyAcr VARCHAR(256),countryName VARCHAR(256),altName VARCHAR(256),yearFound INT,evActivity BIT,spaceRD BIT,spaceStation BIT,humanFlight BIT,multipleSat BIT,extraProbe BIT
+Australian Space Agency,ASA,Australia,National Space Program,2018,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+SPARRSO,SPARRSO,Bangladesh,,1980,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Belarus Space Agency,BSA,Belarus,,2009,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Costa Rican Space Agency,AEC,Costa Rica,Agencia Espacial Costarricense,2021,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+El Salvador Aerospace Institute,ESAI,El Salvador,Instituto Aeroespacial de El Salvador,2021,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Mexican Space Agency,AEM,Mexico,,2010,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Algerian Space Agency,ASAL,Algeria,,2002,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Austrian Space Agency,ALR,Austria,,1972,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Space Agency of the Republic of Azerbaijan,Azercosmos,Azerbaijan,Azercosmos,2021,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+National Space Science Agency,NSSA,Bahrain,,2014,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Royal Belgian Institute for Space Aeronomy,BIRA-IASB,Belgium,Institut royal d'aéronomie spatiale de Belgique,1964,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bolivarian Agency for Space Activities,ABAE,Venezuela,,2008,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Brazilian Space Agency,AEB,Brazil,,1994,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+United Kingdom Space Agency,UKSA,United Kingdom,,2010,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bolivian Space Agency,ABE,Bolivia,,2012,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Bulgarian Space Agency,ИКИ-БАН,Bulgaria,Space Research and Technology Institute of the Bulgarian Academy of Sciences,1987,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Canadian Space Agency,CSA,Canada,Agence spatiale canadienne,1989,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+China National Space Administration,CNSA,China,,1993,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE
+China Aerospace Science and Technology,CASC,China,,1993,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE
+Colombian Space Commission,CCE,Colombia,,2006,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Centre for Remote Imaging Sensing and Processing,CRISP,Singapore,,1995,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Consultative Committee for Space Data Systems,CCSDS,International,,1982,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Ministerstvo dopravy České republiky,Ministry of Transport of the Czech Republic,Czech Republic,Ministry of Transport of the Czech Republic – Space Technologies and Satellite Systems Department,2003,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Danish National Space Center,DNSC,Denmark,Danish Space Research Institute,2005,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+European Space Agency,ESA,European Union,,1975,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+European Union Agency for the Space Programme,EUSPA,European Union,European GNSS Agency,2021,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Geo-Informatics and Space Technology Development Agency,GISTDA,Thailand,,2002,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+German Aerospace Center,DLR,Germany,,1969,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Hellenic Space Centre,ΕΛΚΕΔ,Greece,Ελληνικό Κέντρο Διαστήματος,2019,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Hungarian Space Office,MŰI,Hungary,,1992,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Indian Space Research Organisation,ISRO,India,,1969,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+Instituto Nacional de Técnica Aeroespacial,INTA,Spain,,1942,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Iranian Space Agency,ISA,Iran,,2004,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Israeli Space Agency,ISA,Israel,,1983,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Italian Space Agency,ASI,Italy,,1988,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+Japan Aerospace Exploration Agency,JAXA,Japan,,2003,FALSE,FALSE,FALSE,FALSE,TRUE,TRUE
+Luxembourg Space Agency,LSA,Luxembourg,,2018,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+National Space Agency of the Republic of Kazakhstan,KazCosmos,Kazakhstan,,2007,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+New Zealand Space Agency,NZSA,New Zealand,,2016,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+National Aerospace Development Administration,NADA,North Korea,Korean Committee of Space Technology,2013,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Korea Aerospace Research Institute,KARI,South Korea,,1989,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Lithuanian Space Association,LSA,Lithuania,,2007,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Malaysian Space Agency,MYSA,Malaysia,,2002,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+National Aeronautics and Space Administration,NASA,United States,,1958,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+National Authority for Remote Sensing and Space Sciences,NARSS,Egypt,,1994,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+National Centre for Space Studies,CNES,France,,1961,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+Paraguayan Space Agency,AEP,Paraguay,Agencia Espacial de Paraguay,2014,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+National Commission for Aerospace Research and Development,CONIDA,Peru,,1974,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Philippine Space Agency,PhilSA,Philippines,Department of Science and Technology - Advanced Science and Technology Institute,2019,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Rwanda Space Agency,RSA,Rwanda,,2021,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Comisión Nacional de Actividades Espaciales,CONAE,Argentina,Comisión Nacional de Investigaciones Espaciales,1991,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Research Organization for Aeronautics and Space,LAPAN,Indonesia,,1964,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+National Remote Sensing Center of Mongolia,NRSC,Mongolia,,1987,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Centre national de la cartographie et de la télédétection,CNCT,Tunisia,المركز الوطني للإستشعار عن بعد,1988,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+The Space Research and Technology Agency under the Cabinet of Ministers of the Republic of Uzbekistan,Uzbekspace agency,Uzbekistan,,2019,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+State Space Agency of Ukraine,SSAU,Ukraine,,1992,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+National Space Organization,NSPO,Taiwan,,1991,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+National Space Research and Development Agency,NASRDA,Nigeria,,1998,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Netherlands Institute for Space Research,SRON,Netherlands,,1983,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Norwegian Space Agency,NOSA,Norway,Norwegian Space Centre,1987,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Pakistan Space and Upper Atmosphere Research Commission,SUPARCO,Pakistan,,1961,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Polish Space Agency,POLSA,Poland,Centrum Badań Kosmicznych PAN,2014,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Portugal Space,PTSPACE,Portugal,,2019,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Romanian Space Agency,ROSA,Romania,Agenția Spațială Română,1991,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Egypt Remote Sensing Center (defunct),EASRT-RSC,Egypt,,1971,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Centre Royal de Télédétection Spatiale,CRTS,Morocco,Ammas Amrrukan n Tallunt,1989,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Roscosmos,ROSCOSMOS,Russia,,1991,TRUE,TRUE,TRUE,FALSE,TRUE,TRUE
+Russian Aerospace Forces,VKS RF,Russia,,2015,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Turkish Space Agency,TUA,Turkey,Türkiye Uzay Ajansı,1985,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+South African National Space Agency,SANSA,South Africa,,2010,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Saudi Space Commission,SSC,Saudi Arabia,,2018,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Vietnam National Space Center,VNSC,Vietnam,Trung tâm Vũ trụ Việt Nam,2006,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Swedish National Space Agency,SNSA,Sweden,,1972,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Swiss Space Office,SSO,Switzerland,,1998,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Turkmenistan National Space Agency,TNSA,Turkmenistan,,2011,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+United Nations Office for Outer Space Affairs,UNOOSA,United Nations,,1958,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+United Nations Committee on the Peaceful Uses of Outer Space,UNCOPUOS,United Nations,,1959,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+United Arab Emirates Space Agency,UAESA,United Arab Emirates,,2014,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+United States Space Force,USSF,United States,,2019,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE
+Mohammed bin Rashid Space Centre,MBRSC,United Arab Emirates,Emirates Institution for Advanced Science and Technology,2015,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Syrian Space Agency,SSA,Syria,,2014,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
+Strategic Rocket Forces,RVSN USSR,Soviet Union,,1959,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE
+Space Exploration Technologies Corp.,SpaceX,United States,,2002,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE
