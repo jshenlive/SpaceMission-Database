@@ -159,7 +159,7 @@ public class Part2Main {
           queryFlew(connection, parts[1]);
           }else{
             System.out.println("wrong number of arguments");
-            System.out.println("ie. flew 4, for data on personID 4");
+            System.out.println("E.g. flew 4, for data on personID 4");
             
           }
         }else if (parts[0].equals("built")){
@@ -178,7 +178,7 @@ public class Part2Main {
           if(parts.length == 3){
             queryThree(connection, parts[1], parts[2]);
           }else{
-            System.out.println("Invalid amount of arguments! Example command: 3 Neil Armstrong or 3 n a");
+            System.out.println("Invalid amount of arguments! E.g. 3 Neil Armstrong or 3 n a");
           }
         } else if (parts[0].equals("4")){
           queryFour(connection);
@@ -187,7 +187,7 @@ public class Part2Main {
         } else if (parts[0].equals("6")){
           querySix(connection);
         } else if (parts[0].equals("7")){
-          System.out.println("Enter country name: ie. United States");
+          System.out.println("Enter country name: E.g. United States");
           System.out.print("db > ");
           String arg1 = console.nextLine();
           System.out.println("Enter start year: ie. 2015");
@@ -277,7 +277,7 @@ public class Part2Main {
       System.out.println("7 - All the missions between two given years from given country");
       System.out.println("8 - List of agencies that have fulfilled at least one activity");
       System.out.println("9 - Top 3 astronauts in each country having the most fly time (window functions)");
-      System.out.println("10- Return all satellite names from the launch vehicle which launched the most satellites");
+      System.out.println("10 - Return all satellite names from the launch vehicle which launched the most satellites");
       System.out.println("11 <projectID> - search spacecraft, funding, by projectID ");
       System.out.println("12 <projectID> - search project by projectID");
       System.out.println("13 - Display project, flightYear and Astronaut based on spacecraft Name");
@@ -1783,7 +1783,7 @@ public class Part2Main {
         if (!resultSet.next()) {
           System.out.println("No data found with given query");
         } else{
-          System.out.println("FilmName | releasedYear | Spacecraft based on | Astronault Name | projectID | launchMonth | flightYear | launch location | launch country | missionStatus | spacecraftName | launcherName  ");
+          System.out.println("Film Name | Released Year | Spacecraft based on | Astronaut Name | projectID | Launch Month | Flight Year | Launch Location | Launch Country | Mission Status | Spacecraft Name | Launcher Name  ");
           do{
             System.out.println(
               resultSet.getString("filmName") + " | "
