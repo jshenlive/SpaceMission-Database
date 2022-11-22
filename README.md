@@ -5,9 +5,9 @@ For Comp 3380, Fall 2022
 
 Github Repo: https://github.com/jshenlive/SpaceMission-Database
 
-===============
+
 ## Introduction
-===============
+
 
 This project includes datasets from space missions ranging from 1957 - 2022, international astronauts, international agencies, international spacecrafts used in missions, international spacecraft manufacturers and films featured based on space missions. 
 
@@ -28,9 +28,9 @@ In order to run properly, make sure that a java complier is installed for the sy
 !["screenshot on custom Query"](https://github.com/jshenlive/SpaceMission-Database/blob/main/screenshots/customQuery.jpg)
 
 
-================
+
 ## Project Setup
-================
+
 
 ### Startup
 * Type `make run` in CLI from the main directory folder to start program.
@@ -44,9 +44,9 @@ In order to run properly, make sure that a java complier is installed for the sy
 3. Run java program by using command: `make run` in CLI
 4. Enter `init` in CLI to reset, create, and add all seed files
 
-==========
+
 ## Queries
-==========
+
 
 * Queries List can be found by entering `queries`
 
@@ -64,9 +64,9 @@ In order to run properly, make sure that a java complier is installed for the sy
             db >  `7`
             db >  `Canada 2015 2020`
 
-===================
+
 ## Relational Model
-===================
+
 
 -	agencies(**agencyName**, agencyAcr, countryName) altname,yearFound,evActivity,spaceRD,spaceStation,humanFlight,multipleSat,extraProbe)
 -	astronaut(**personID**,firstname,lastname,numFlight,totalFlightTime)
