@@ -1,4 +1,4 @@
-﻿projectID INT,launchMonth VARCHAR(256),flightYear INT,launchLocation VARCHAR(256),countryName VARCHAR(256),missionStatus VARCHAR(256)
+projectID INT primary key IDENTITY(1,1),launchMonth VARCHAR(256),flightYear INT,launchLocation VARCHAR(256),countryName VARCHAR(256),missionStatus VARCHAR(256)
 1,Aug,2020,LC-39A Kennedy Space Center Florida,USA,Success
 2,Aug,2020,Site 9401 (SLS-2) Jiuquan Satellite Launch Center,China,Success
 3,Aug,2020,Pad A Boca Chica Texas,USA,Success
@@ -4323,4 +4323,3 @@
 4322,Dec,1957,LC-18A Cape Canaveral AFS Florida,USA,Failure
 4323,Nov,1957,Site 1/5 Baikonur Cosmodrome,Kazakhstan,Success
 4324,Oct,1957,Site 1/5 Baikonur Cosmodrome,Kazakhstan,Success
-,,,,,
