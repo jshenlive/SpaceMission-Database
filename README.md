@@ -1,4 +1,8 @@
 # Welcome to Space Missions Database
+
+Created by Andrea Nguyen, Jesse Shen, and Roselle Deinla
+For Comp 3380, Fall 2022
+
 Github Repo: https://github.com/jshenlive/SpaceMission-Database
 
 ===============
@@ -82,3 +86,5 @@ In order to run properly, make sure that a java complier is installed for the sy
 --------------
 #### Dataset References
 - Dataset were collected through opensource media such as Wikipedia, Kaggle, and DatasetSearch(google). This project was created for learning purposes and we do not warranty accuracy of any data provided.
+-------
+Nathan Nguyen also contributed in selecting/planning the database, however he was unable to continue working on this project after the planning phase. 
