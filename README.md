@@ -68,17 +68,17 @@ In order to run properly, make sure that a java complier is installed for the sy
 ## Relational Model
 
 
--	agencies(**agencyName**, agencyAcr, countryName, altname,yearFound,evActivity,spaceRD,spaceStation,humanFlight,multipleSat,extraProbe)
--	astronaut(**personID**,firstname,lastname,numFlight,totalFlightTime)
--	builtBy(**builtBy**,manufacturerName,spacecraftName)
+-	agencies(**agencyName**, agencyAcr, countryName, altname, yearFound, evActivity, spaceRD, spaceStation, humanFlight, multipleSat, extraProbe)
+-	astronaut(**personID**, firstname, lastname, numFlight, totalFlightTime)
+-	builtBy(**builtBy**, manufacturerName, spacecraftName)
 -	country(**countryName**, continent)
--	films(**filmID**, filmName,releasedYear, filmLength,spacecraftName)
+-	films(**filmID**, filmName, releasedYear, filmLength, spacecraftName)
 -	flewBy(**flightID**, spacecraftName, personID, flightYear)
 -	funding(**fundID**, projectID, agencyAcr, cost)
 -	manufacturers(**manufacturerName**, yearFound)
 -	nationality(**personID**, countryName)
 -	projects(**projectID**, launchMonth, flightYear, launchLocation, countryName, missionStatus)
--	satellite(**spacecraftName**, orbit,orbitType,launchVehicle)
+-	satellite(**spacecraftName**, orbit, orbitType, launchVehicle)
 -	spacecraft(**spacecraftName**, missionType)
 -	spacecraftUsed(**spacecraftUsedID**, projectID, spacecraftName, launcherName)
 
